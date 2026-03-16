@@ -1,0 +1,240 @@
+/* INDEX */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f9fa;
+}
+
+section {
+    background: linear-gradient(to right, #e9f2ff, #ffffff);
+}
+
+section h1 {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+section p {
+    font-size: 18px;
+    color: #333;
+}
+
+.list-group-item {
+    transition: 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-body h5 {
+    color: #0d6efd;
+}
+
+.accordion-button {
+    font-weight: 500;
+}
+
+footer {
+    font-size: 14px;
+}
+
+section {
+    background: linear-gradient(to right, #e9f2ff, #ffffff);
+    padding: 80px 20px;
+}
+
+section h1 {
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.list-group,
+.card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.col-lg-8 {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+}
+
+footer {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+/* ABOUT */
+body {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+
+section.bg-light {
+    background-color: #ffffff !important;
+}
+
+aside h5 {
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.card .badge {
+    margin-top: 5px;
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+/* INFO */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+main {
+    min-height: 75vh;
+}
+
+.logo {
+    width: 8vw;
+    max-width: 60px;
+    min-width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link {
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #ffc107;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main p.text-muted {
+    font-size: 0.95rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.table th {
+    text-align: center;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px 15px;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+/* CONTACT */
+form label {
+    font-weight: 500;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.alert {
+    font-size: 0.9rem;
+}
+
+textarea {
+    resize: none;
+}
